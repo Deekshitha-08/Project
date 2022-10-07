@@ -1,0 +1,46 @@
+.Product {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .ProductPageContainer {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .ProductHeading{
+    text-align: center;
+    
+  
+  }
+  .ProductHeading{
+    color: green;
+  }
+  
+  .productList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin: 50px;
+  }
+  .button{
+    background-color: lightgreen;    
+    
+  }
+  /* .filterContainer {
+    padding: 0 40px ;
+    border-right: 2px solid #fff;
+    margin: 50px;
+    justify-content: center;
+  
+  }
+  .productcard{
+    display: flex;
+  }
+  .productImage {
+   box-sizing: border-box;
+  }
+   */
