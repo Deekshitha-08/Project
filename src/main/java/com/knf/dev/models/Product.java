@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.persistence.*;
 import java.util.List;
 @Entity
-@Table
+@Table(name="plants")
 public class Product {
     private String product_name;
     private int price;
